@@ -1,6 +1,9 @@
+
+
 .barra-navegacion{
-    background-color: #101010;
     display: flex;
+    background-color: #101010;
+ 
     align-items: center;
     justify-content: space-between;
 }
@@ -9,12 +12,32 @@
     color: #fff;
     padding: 1%;
 }
-.barra-navegacion button{
+.barra-navegacion a{
+    display: inline-block;
+    margin: auto 10px;
     background-color: #c5c3c3;
-    border-radius: 10%;
+    border-radius: 100%;
     padding: 5px;
-    margin: 0 10px;
+    
 }
-.barra-navegacion img{
+.barra-navegacion a img{
     width: 30px;
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.contactanos{
+
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: #985da5;
+    border: 2px solid #8c8989;
 }
