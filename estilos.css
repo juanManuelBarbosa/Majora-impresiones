@@ -1,7 +1,12 @@
+body{
+    background-color: #222;
+    overflow-x: hidden;
+}
+
 /* estilos de navegacion */
 .barra-navegacion{
     display: flex;
-    background-color: #101010;
+    background-color: #222;
     align-items: center;
     justify-content: space-between;
 }
@@ -66,23 +71,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: first baseline;
-    padding-top: 0;
+    padding-top: 2%;
     max-height:100% ;
     font-size: 16px;
-    width: 80%;
+    
 }
 
 .hero .hero-titulo{   
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #fff;
     padding-left:1% ;
     width: 30%;
 }
 
 .hero .hero-comentario{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #fff;
-    padding-left:1% ;   
+    padding-left:1% ; 
+    width: 80%;  
 }
 
 .hero button {
@@ -90,4 +96,71 @@
     height: 50px;
     margin: 0 auto;
     font-size: 17px;
+}
+
+/*  estilos del carrusel */
+
+.carrusel-contenedor{
+    display: block;
+    width: 100%;
+    margin:30px auto 0 30px;
+   background-color: #222;
+}
+
+.img-carrusel{
+    width: 70%;
+    height:70%;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+/*comentario*/
+
+.comentario{
+    
+    background-color: #101010;
+    padding: 20px;
+}
+
+.comentario p{
+    color: #fff;
+    font-size: 1.7rem;
+    text-align:end
+}
+
+
+/*nuestros servicios*/
+
+
+.sevicios-contenedor{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+h2{
+    color: #fff;
+}
+
+.servicio{
+    width: 30%;
+    padding: 10px;
+    
+}
+
+.servicio img{
+    width:80%;
+}
+
+
+
+.servicio p{
+    color: #fff;
+    
+}
+
+.servicio h3{
+    color: #fff;
 }
